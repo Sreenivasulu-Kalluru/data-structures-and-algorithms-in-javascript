@@ -63,7 +63,7 @@ function findFirstNonRepeatingCharacter(str) {
 
 ### Explanation
 
-- I nitialize a map to keep track of the number of times each character appears in the string.
+- Initialize a map to keep track of the number of times each character appears in the string.
 
 - Iterate through the string and add each character to the map. If the character is already in the map, we increment its count by 1. If it isn't, we set its count to 1.
 
