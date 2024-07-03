@@ -59,7 +59,7 @@ function areAllCharactersUnique(str) {
 
 ### Explanation
 
--Initialize a new `Set` to keep track of the characters we've seen so far.
+- Initialize a new `Set` to keep track of the characters we've seen so far.
 
 - Iterate through the string and check if the current character is in the set. If it is, we return `false` because it means we've seen the character before. If it isn't, we add it to the set.
 - If we make it through the entire string without returning `false`, we return `true` because it means we haven't seen any characters more than once.
