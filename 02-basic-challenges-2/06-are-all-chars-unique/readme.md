@@ -89,11 +89,11 @@ function areAllCharactersUnique(str) {
 
 ### Explanation
 
-This solution is similar except we use an object instead of a `Set` to keep track of the characters we've seen so far.
+- This solution is similar except we use an object instead of a `Set` to keep track of the characters we've seen so far.
 
-Then we iterate through the string and check if the current character is in the object. If it is, we return `false` because it means we've seen the character before. If it isn't, we add it to the object.
+- Then we iterate through the string and check if the current character is in the object. If it is, we return `false` because it means we've seen the character before. If it isn't, we add it to the object.
 
-If we make it through the entire string without returning `false`, we return `true` because it means we haven't seen any characters more than once.
+- If we make it through the entire string without returning `false`, we return `true` because it means we haven't seen any characters more than once.
 
 </details>
 
