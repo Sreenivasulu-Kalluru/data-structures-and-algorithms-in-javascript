@@ -14,7 +14,7 @@ With the Russian doll example, you could use a for loop if you knew how many dol
 
 At first glance, recursion and iteration (loops) seem to be very similar. They both can be used to solve the same problems, but there are some differences between them. There are also pros and cons to both.
 
-As we've established, recursion  is a function that calles itself until a base case is met and solves a smaller version of the same problem, while iteration is just a block of code that is executed a specific number of times.
+As we've established, recursion  is a function that calls itself until a base case is met and solves a smaller version of the same problem, while iteration is just a block of code that is executed a specific number of times.
 
 When using recursion, you're adding function calls to the call stack and that takes up memory and can affect performance. Iteration doesn't because you aren't adding function instances. So that's one pro for iteration over recursion.
 
