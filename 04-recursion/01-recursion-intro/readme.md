@@ -10,7 +10,7 @@ One example that I like is the analogy of a Russian doll. A Russian doll is a se
 
 With the Russian doll example, you could use a for loop if you knew how many dolls there were, but if you don't know the exact amount of iterations, as you often don't in programming, recursion can be a better option.
 
-## Recursion vs iteration
+## Recursion vs Iteration
 
 At first glance, recursion and iteration (loops) seem to be very similar. They both can be used to solve the same problems, but there are some differences between them. There are also pros and cons to both.
 
