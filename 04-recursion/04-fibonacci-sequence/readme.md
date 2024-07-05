@@ -54,7 +54,7 @@ fibonacci(10); // 55
 
 ### Hints
 
-- You know that the formula is `F(n) = F(n-1) + F(n-2)`. ` F`` is the function, and  `n` is the number in the sequence.
+- You know that the formula is `F(n) = F(n-1) + F(n-2)`. `F` is the function, and  `n` is the number in the sequence.
 - You know that the first two numbers in the sequence are `0` and `1`. So if the number is less than 2, you can return the number.
 
 ## Solutions
