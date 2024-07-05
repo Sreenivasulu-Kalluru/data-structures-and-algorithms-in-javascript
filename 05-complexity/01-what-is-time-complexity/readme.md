@@ -54,7 +54,7 @@ Logarithmic time is when the runtime scales logarithmically as the input grows. 
 
 Mathematically, a logarithm is the inverse function or the opposite of an exponent. So if we have 2 to the power of 3, the logarithm is 3. If we have 2 to the power of 4, the logarithm is 4. If we have 2 to the power of 5, the logarithm is 5. And so on.
 
-If we look at the chart, we can see that the logarithmic line is almost flat. It does increase but at a much slower rate. So anny function or algorithm that uses logarithmic time is very efficient.
+If we look at the chart, we can see that the logarithmic line is almost flat. It does increase but at a much slower rate. So any function or algorithm that uses logarithmic time is very efficient.
 
 
 In the next lesson, I want to talk about `Big O notation` and how we can use it to describe the time complexity of a function.
