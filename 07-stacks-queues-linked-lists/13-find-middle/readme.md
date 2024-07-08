@@ -56,8 +56,7 @@ findMiddle(list); // returns 4
 
 <details>
   <summary>Click For Solution</summary>
-
-
+  
 ```js
 function findMiddle(list) {
   let slow = list.head;
