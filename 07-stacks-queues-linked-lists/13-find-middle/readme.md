@@ -79,6 +79,7 @@ function findMiddle(list) {
   }
 }
 ```
+</details>
 
 ### Explanation
 
