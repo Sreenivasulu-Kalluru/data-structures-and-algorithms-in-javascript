@@ -66,7 +66,7 @@ function reverseString(str) {
 - Initialize a new `Stack` instance.
 - Iterate through the string and push each character onto the stack.
 - Initialize a variable called `reversedString` and set it to an empty string.
-- Iterate through the stack and pop each character off and added it to the `reversedString` variable.
+- Iterate through the stack and pop each character off and add it to the `reversedString` variable.
 - Return the `reversedString` variable.
 
 ### Time & Space Complexity
