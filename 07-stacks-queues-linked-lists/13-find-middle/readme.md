@@ -79,7 +79,6 @@ function findMiddle(list) {
   }
 }
 ```
-</details>
 
 ### Explanation
 
@@ -95,6 +94,7 @@ We will use the `fast and slow pointer pattern` to find the middle node of the l
 The time complexity of the function `findMiddle(list)` is `O(n)`, where n is the number of nodes in the linked list. This is because the function uses a two-pointer approach to find the middle node of the linked list. The fast pointer moves twice as fast as the slow pointer, effectively iterating through the entire linked list once.
 
 The space complexity of the function is `O(1)`. Regardless of the size of the linked list, the function only uses a constant amount of additional space to store the slow, fast, and prev pointers. It doesn't use any additional data structures or recursion, so the space complexity remains constant.
+</details>
 
 ## Test Cases
 
