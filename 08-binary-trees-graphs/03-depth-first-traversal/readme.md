@@ -4,7 +4,7 @@ Now we are going to get into some algorithms that involve binary trees. This one
 
 So if we look at the following tree:
 
-<img src=".../../assets/images/depth-first.png" width="500" alt="" />
+<img src="../../assets/images/depth-first.png" width="500" alt="" />
 
 We would start at `a` and then go to `b`. From here, we would go to `d` because we are going as far as possible along each branch before backtracking. `d` is as far as we can go on this path because it is a `leaf node`, which means it has no children. So now we can move over to `e`. If `e` had a child, we would move down, but since it doesn't, we're going to move over to `c`. From `c`, we can move down in depth to `f`.
 
