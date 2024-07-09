@@ -12,7 +12,7 @@ So this pattern would be `a`, `b`, `d`, `e`, `c`, `f`.
 
 Now we want to implement this algorithm. We are going to use a `stack` to implement this algorithm because we want to keep track of the nodes we have visited. Remember a stack is a `LIFO` data structure, which means `Last In First Out`. So the last node we visit will be the first node we pop off the stack. When a node is popped off or removed from the stack, we can say that node has been `visited`. When a node is popped off the stack, it will be put in a variable called `current`. We will then check if `current` has a right child. If it does, we will add it to the stack. If it doesn't, we will check if it has a left child. If it does, we will add it to the stack. If it doesn't, we will pop the next node off the stack and repeat the process.
 
-Let's implement this in JavaScript. We will use the same `Node` class we used in the previous lesson. We will first use a standard array as our stack, but then I wan to implement the `Stack` class that we created a few lessons ago.
+Let's implement this in JavaScript. We will use the same `Node` class we used in the previous lesson. We will first use a standard array as our stack, but then I want to implement the `Stack` class that we created a few lessons ago.
 
 ```js
 class Node {
