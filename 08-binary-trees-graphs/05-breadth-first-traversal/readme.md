@@ -4,7 +4,7 @@ Now, let's explore another traversal algorithm for binary trees called `Breadth-
 
 To illustrate this algorithm, let's consider the same binary tree we used in the depth-first traversal example:
 
-<img src=".../../assets/images/breadth-first.png" width="500" alt="" />
+<img src="../../assets/images/breadth-first.png" width="500" alt="" />
 
 For breadth-first traversal, we start at the root node `a` and visit its children, `b` and `c`, in order. Then, we move down to the next level and visit the children of `b` and `c`, which are `d`, `e`, and `f`. We continue this pattern, visiting all nodes at the current level before moving to the next level.
 
