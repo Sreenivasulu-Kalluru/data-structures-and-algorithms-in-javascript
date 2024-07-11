@@ -28,7 +28,7 @@ The time complexity of search, insertion, and deletion operations in a binary se
 
 ### Operations on a Binary Search Tree
 
-These are the three main operations on a binary search tree. I'm just going to give you a quick summary on the process for all three. It most likely won't be completely cleat until we actually code it out.
+These are the three main operations on a binary search tree. I'm just going to give you a quick summary on the process for all three. It most likely won't be completely clear until we actually code it out.
 
 1. **Insertion**: To insert a new node into a binary search tree, we start at the root and compare the new node's value with the current node's value. If the value is less, we move to the left subtree; if it is greater or equal, we move to the right subtree. This process continues recursively until we find an empty spot, where we insert the new node.
 
